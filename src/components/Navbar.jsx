@@ -7,11 +7,11 @@ function Navbar() {
     <div className="max-w-screen-xl mx-auto py-6 flex items-center justify-between border-b-[1px] border-zinc-700">
       <div className="nleft flex items-center">
         <div className="flex items-center">
-          <img src="../../public/logo.png" alt="" />
+          <img src="/public/logo.png" alt="" />
           <h1>Refoukus</h1>
         </div>
 
-        <div className="links hidden md:flex gap-10 items-center justify-center ml-32 ">
+        <div className="links hidden md:flex gap-10 items-center justify-center ml-32 p-2 ">
           {["Home", "Work", "Culture", "", "News"].map((elem, index) =>
             elem.length === 0 ? (
               <span key={index} className="w-[2px] h-7 bg-zinc-600"></span>
