@@ -2,9 +2,9 @@
 
 function Footer() {
   return (
-    <div className="w-full">
-      <div className="max-w-screen-xl mx-auto py-10 flex gap-32">
-        <div className="basis-1/2 text-[11rem] font-semibold leading-none tracking-tight">
+    <div className="w-full p-3">
+      <div className="max-w-screen-xl mx-auto py-10 flex flex-col md:flex-row md:gap-32 gap-20">
+        <div className="basis-1/2 md:text-[11rem] text-[6rem] font-semibold leading-none tracking-tight">
           refouks.
         </div>
         <div className="basis-1/2 flex gap-5">

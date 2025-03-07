@@ -59,12 +59,12 @@ function Products() {
           initial={{ y: position, x: "-50%" }}
           animate={{ y: position + `rem` }}
           transition={{ ease: [0.45, 0, 0.55, 1], duration: .6}}
-          className="absolute w-[32rem] h-[23rem] bg-sky-300 left-[42%] overflow-hidden"
+          className="absolute w-[27rem] md:w-[32rem] h-[23rem] left-[42%] overflow-hidden"
         >
-          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full bg-sky-100"> <video autoPlay muted loop src={arqitel}></video> </motion.div>
-          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full bg-sky-200"> <video autoPlay muted loop src={ttr}></video> </motion.div>
-          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full bg-sky-300"> <video autoPlay muted loop src={yir}></video> </motion.div>
-          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full bg-sky-400"> <video autoPlay muted loop src={yahoo}></video> </motion.div>
+          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full"> <video autoPlay muted loop src={arqitel}> </video> </motion.div>
+          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full "> <video autoPlay muted loop src={ttr}></video> </motion.div>
+          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full "> <video autoPlay muted loop src={yir}></video> </motion.div>
+          <motion.div animate={{y: -position + `rem`}} transition={{ ease: [0.45, 0, 0.55, 1], duration: .5}} className="w-full h-full "> <video autoPlay muted loop src={yahoo}></video> </motion.div>
         </motion.div>
       </div>
     </div>

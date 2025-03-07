@@ -32,7 +32,7 @@ function Stripes() {
     ]
 
   return (
-    <div className="flex items-center mt-20">
+    <div className="flex flex-wrap md:flex-nowrap items-center mt-20">
         {data.map((obj, index) => (
             <Stripe key={index} item={obj} />
         ))}
